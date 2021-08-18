@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D6F9E226CD3F8B005648E9 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F9E126CD3F8B005648E9 /* StorageManager.swift */; };
 		0687A8F426CAD1FA004EA708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687A8F326CAD1FA004EA708 /* AppDelegate.swift */; };
 		0687A8F826CAD1FA004EA708 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687A8F726CAD1FA004EA708 /* TaskListViewController.swift */; };
 		0687A8FE26CAD1FA004EA708 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0687A8FC26CAD1FA004EA708 /* CoreDataDemo.xcdatamodeld */; };
 		0687A90026CAD1FC004EA708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0687A8FF26CAD1FC004EA708 /* Assets.xcassets */; };
 		0687A90326CAD1FC004EA708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0687A90126CAD1FC004EA708 /* LaunchScreen.storyboard */; };
-		0687A90B26CADABC004EA708 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687A90A26CADABC004EA708 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D6F9E126CD3F8B005648E9 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		0687A8F026CAD1FA004EA708 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0687A8F326CAD1FA004EA708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0687A8F726CAD1FA004EA708 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		0687A8FF26CAD1FC004EA708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0687A90226CAD1FC004EA708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0687A90426CAD1FC004EA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0687A90A26CADABC004EA708 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				0687A8F326CAD1FA004EA708 /* AppDelegate.swift */,
 				0687A8F726CAD1FA004EA708 /* TaskListViewController.swift */,
-				0687A90A26CADABC004EA708 /* TaskViewController.swift */,
 				0687A8FF26CAD1FC004EA708 /* Assets.xcassets */,
 				0687A90126CAD1FC004EA708 /* LaunchScreen.storyboard */,
 				0687A90426CAD1FC004EA708 /* Info.plist */,
 				0687A8FC26CAD1FA004EA708 /* CoreDataDemo.xcdatamodeld */,
+				05D6F9E126CD3F8B005648E9 /* StorageManager.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0687A8F826CAD1FA004EA708 /* TaskListViewController.swift in Sources */,
-				0687A90B26CADABC004EA708 /* TaskViewController.swift in Sources */,
 				0687A8FE26CAD1FA004EA708 /* CoreDataDemo.xcdatamodeld in Sources */,
 				0687A8F426CAD1FA004EA708 /* AppDelegate.swift in Sources */,
+				05D6F9E226CD3F8B005648E9 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
